@@ -14,5 +14,5 @@
 }
 
 
-@property (nonatomic, strong) UIColor *blurTintColor;
+@property (nonatomic, assign) UIColor *blurTintColor;
 @end

@@ -51,6 +51,11 @@
     [self setClipsToBounds:YES];
 }
 
+- (UIColor *)blurTintColor
+{
+    return _toolBar.barTintColor;
+}
+
 - (void) setBlurTintColor:(UIColor *)blurTintColor
 {
     _toolBar.barTintColor = blurTintColor;
